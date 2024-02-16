@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('hands\ together\ img');
+    background-size: cover; /* Adjust according to your preference */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    }
+    
+
+
+header {
+    /* background-color: #333; */
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    /* background-color: #333; */
+    color:black;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Example Styling for Columns */
+.column {
+    width: 45%;
+    float: left;
+    margin: 0 2.5%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #e09832;
+}
+
+@media only screen and (max-width: 768px) {
+    .column {
+        width: 100%;
+        margin: 0;
+    }
+}
